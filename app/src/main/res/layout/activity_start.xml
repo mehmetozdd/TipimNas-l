@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:padding="16dp"
+    tools:context=".Activity.StartActivity">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame_start"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoşgeldin"
+            android:textColor="#8500EE"
+            android:layout_marginTop="30dp"
+            android:textSize="42sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Başkalarının sana baktıklarında ne düşündüklerini öğrenmek istiyorsan..."
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="22dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/regular"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12sp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/think"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doğru Yerdesin\nÇok Eğleneceksin!"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/regular"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="12dp"
+            android:textSize="15dp"
+            android:text="Tipim Nasıl uygulamasını kullanarak kendi tipine dair her şeyi öğrenebilirsin!"/>
+
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnback"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="Başla"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="32sp"
+            android:layout_marginRight="32sp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
